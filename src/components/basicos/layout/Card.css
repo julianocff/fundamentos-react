@@ -1,0 +1,22 @@
+.card {
+    border: 0px solid purple;
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    background-color: black;
+    overflow: hidden;
+}
+
+.card .titulo {
+    background-color: blueviolet;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.card .conteudo {
+    padding-bottom: 5px;
+}
