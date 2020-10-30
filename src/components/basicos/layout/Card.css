@@ -1,22 +1,26 @@
 .card {
-    border: 0px solid purple;
+    border: 3px solid;
     border-radius: 15px;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 4px;
     color: white;
-    background-color: black;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    max-width: 500px;
+    background-color: crimson;
 }
 
 .card .titulo {
-    background-color: blueviolet;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
     padding: 10px 0;
     display: flex;
     justify-content: center;
 }
 
 .card .conteudo {
-    padding-bottom: 5px;
+    padding: 10px;
+    flex-grow: 1;
 }

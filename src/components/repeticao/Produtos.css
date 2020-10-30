@@ -1,0 +1,15 @@
+.produtos table {
+    width: 100%;
+}
+
+.produtos th {
+    background-color: darkcyan;
+}
+
+.produtos .par {
+    background-color: darkgrey;
+}
+
+.produtos .imp {
+    background-color: rgb(126, 119, 119);
+}
