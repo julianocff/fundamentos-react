@@ -12,7 +12,8 @@ import ParOuImpar from './components/condicional/ParOuImpar'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
-
+import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
 
 export default () =>
     <div className="app">
@@ -21,6 +22,13 @@ export default () =>
             {/* <Card titulo="">
 
             </Card> */}
+            <Card titulo="Contador">
+                <Contador numInicial={10} />
+            </Card>
+
+            <Card titulo="Componente Controlado (Input)">
+                <Input></Input>
+            </Card>
 
             <Card titulo="Comunicação Indireta">
                 <IndiretaPai></IndiretaPai>
